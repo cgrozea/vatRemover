@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "VAT Remover",
+  "version": "1.0",
+  "description": "Remove VAT from selected text",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon-48.png"
+    }
+  },
+  "icons": {
+    "48": "icons/icon-48.png"
+  }
+}
